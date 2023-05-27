@@ -1,0 +1,68 @@
+*{
+  margin: 0px;
+  border: 0px;
+
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: black;
+  height: 50px;
+  align-items: center;
+  padding: 5px 10px;
+ 
+}
+.head a {
+  color: white;
+}
+.head .right{
+  width: 110px;
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+
+}
+
+.smain{
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* align-items: center; */
+   /* width: 90%; */
+   padding-left: 50px;
+   padding-top: 100px;
+   padding-right: 50px;
+    background-color: black;
+    color: white;
+    height: 79vh;
+}
+.signup{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.signup input{
+  background-color: black;
+  color: white;
+  border-bottom: 2px solid white;
+  height: 30px;
+  text-decoration: solid;
+  outline: none;
+}
+.signup input::placeholder {
+  color: white;
+}
+
+.smain button{
+  width: 100px;
+  margin-top: 30px;
+  padding: 5px 5px;
+}
+
+.pmain {
+  background-color: black;
+  color: white;
+  height: 79vw;
+}
